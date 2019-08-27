@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
+
+@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
+}
+body{
+    color: white;
+    padding: 0;
+}
+.topnav {
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: bottom;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 4px solid transparent;
+    font-family: Arsenal;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 6px solid white;
+  }
+  
+  .topnav a.active {
+    border-bottom: 6px solid white;
+  }
+  .logo{
+      width: 110px;
+     position:absolute;
+      left: 0;
+      top:0;
+      margin-top: -15px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    
+  }
+  
+  .column img {
+    margin-top: 80px;
+    vertical-align: middle;
+
+  }

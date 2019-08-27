@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal&display=swap');
+
+
+body{
+    color: white;
+    padding: 0;
+    margin:0;
+
+}
+
+.topnav {
+    background-color:#F00000;
+    overflow: hidden;
+    width: 100%;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    
+  }
+  .bran img{
+    height: 30px;
+  }
+ 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: bottom;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 4px solid transparent;
+    font-family: Arsenal;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 6px solid white;
+  }
+  
+  .topnav a.active {
+    border-bottom: 6px solid white;
+  }
+  .logo{
+      width: 110px;
+     position:absolute;
+      left: 0;
+      top:0;
+      margin-top: -15px;
+
+  }
+
+  .content{
+   padding: 0%;
+   margin: 0%;
+   display: flex;
+   flex-direction: row;
+
+  }
+
+.one{
+padding: 0%;
+margin-top: 65px;
+}
+.one>img{
+width: 1300px; 
+
+}
+.two>img{
+  position: relative;
+}
+
+.two>img{
+  width: 1045px;
+  height: 550px;
+  position: absolute;
+  top: 350px;
+  left: 0px;
+
+
+
+}
+.three>img{
+  position: relative;
+}
+
+.three>img{
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 900px;
+  left: 0px;
+}
+  .four>img{
+    position: relative;
+  }
+  
+  .four>img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 900px;
+    left: 350px;
+  }
+  .four>img{
+    position: relative;
+  }
+  
+  .four>img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 900px;
+    left: 350px;
+  }
+  .five>img{
+    position: relative;
+  }
+  
+  .five>img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 900px;
+    left: 700px;
+  }
+  .six>img{
+    position: relative;
+  }
+  
+  .six>img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+  }
+  .seven>img{
+    position: relative;
+  }
+  
+  .seven>img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+  }
+  .eight>img{
+    position: relative;
+  }
+  
+  .eight>img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 850px;
+    left: 1050px;
+  }.nine>img{
+    position: relative;
+  }
+  
+  .nine>img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 1100px;
+    left: 1050px;
+  }
+  .footer {
+    color:white;
+    background-color: #F00000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    bottom: 0;
+overflow: hidden;
+position: fixed;
+width: 100%;
+
+  }
+  footer:visited {
+    color: rgb(190, 65, 190);
+  }
+  a:hover, a:active, a:focus {
+    color:rgb(79, 51, 204);
+  }
